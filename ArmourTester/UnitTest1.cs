@@ -38,7 +38,7 @@ namespace ArmourTester
         {
             int prot = ar.getCurProt();
 
-            //prot ei voi olla 0 (ellei ole tarkoitus olla armoria joka antaa miinusta, tuskin on)
+            //prot ei voi olla pienempi kuin 0 (ellei ole tarkoitus olla armoria joka antaa miinusta, tuskin on)
             if (prot < 0)
             {
                 Assert.Fail("prot ei voi olla pienempi kuin 0");
