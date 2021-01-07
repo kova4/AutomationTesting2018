@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Testing2018
 {
     class Program
@@ -11,7 +12,9 @@ namespace Testing2018
         static void Main(string[] args)
         {
             Armour ar = new Armour("Jorma", "Kokkeli", 20, 2, 2);
-            Console.WriteLine(ar.getLevel());
+            Console.WriteLine(ar.getMaxProt());
+            Console.WriteLine(ar.getCurProt());
+
         }
     }
 }

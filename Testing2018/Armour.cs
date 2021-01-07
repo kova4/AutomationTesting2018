@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Testing2018
 {
-    class Armour
+    public class Armour
     {
         private String name;
         private String desc; // briefly about the eqs appearance
@@ -125,6 +125,17 @@ namespace Testing2018
         {
             return level;
         }
+
+        public string getName()
+        {
+            return name;
+        }
+
+        public string getDesc()
+        {
+            return desc;
+        }
+
         /*
          * Method takeDam is createed to wear&tear the equipment.
          * @param amount parameter that includes information about the amount
